@@ -69,3 +69,7 @@ alert(elem.getAttribute("myAttr"));</p>
 <p>name ist der Name des Parameters beim Formaufruf</p>
 
 <p> String in Number umleiten: Number("5") </p>
+
+<h3>Array: </h3>
+
+<p>let fruits = ["Apple", "Banana", "Pear]; fruits[8] = "Orange"; in between another indexes will be undefined</p>
