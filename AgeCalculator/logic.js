@@ -20,7 +20,11 @@ function berechnen(){
     let months = currentMonth - month;
     let days = currentDay - day;
 
-    if (months < 0 || (months === 0 && currentDate.getDate() < birthDate.getDate())) {
+    if(day > currentDay && month > currentMonth && year > currentYear){
+        alert("It´s in the future!");
+    }
+
+    if (months < 0 || (months === 0 && currentDate.getDate() < day)) {
         years--;
         months += 12;
     }
