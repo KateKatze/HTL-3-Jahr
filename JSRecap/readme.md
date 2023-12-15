@@ -86,8 +86,25 @@ let c=1;
 ++c;
 alert(c);</p>
 
-<h3>Vergleich</h3>
+<h3>Vergleich: </h3>
 
 <p> === wert&typ müssen gleich sein </p>
+
+<h3>Ifs: </h3>
+
+<p>Jede String außer Leersting wird als true interpretiert: 
+if("false"){
+  alert(true);
+} else {
+  alert(false);
+} </p>
+
+<p>0, undefined, null, NaN, "" - false</p>
+
+<h3>Ternary Operator</h3>
+
+<p>x = (condition) ? (true condition) : (false condition); </p>
+
+
 
 

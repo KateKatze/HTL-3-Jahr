@@ -10,7 +10,6 @@ function showValue(){
     //ele.setAttribute("newchoice", ele.value)
     ele.value="new";
 }
-*/
 
 // Beispiel 2
 document.getElementById("plus").onclick = plusPlus;
@@ -30,3 +29,4 @@ function minusMinus(){
     values = parseInt(ele.value) - 1;
     ele.value = values;
 }
+*/
