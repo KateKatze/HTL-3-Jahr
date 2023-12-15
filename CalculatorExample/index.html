@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="logic.js" defer></script>
+    <title>Calculator</title>
+</head>
+<body>
+
+    <div class="card mt-5" style="width: 20rem; margin: 0 auto;">
+        <div class="card-body">
+          <h3 class="card-title text-center mb-5">Calculator with buttons</h3>
+          <div class="mb-3">
+            <label for="op1">Operand 1: </label>
+            <input type="number" id="op1">
+          </div>
+          <div class="mb-3">
+            <label for="op2">Operand 2: </label>
+            <input type="number" id="op2">
+          </div>
+          <div class="mb-3">
+            <label for="ops">Operators: </label>
+            <select class="form-select" id="selection">
+              <option id="plus" selected>+</option>
+              <option id="minus">-</option>
+              <option id="multiply">*</option>
+              <option id="divide">/</option>
+            </select>
+            <input id="calculate" class="btn btn-primary" type="button" value="Calculate"/>
+          </div>
+            <div class="mb-3">
+            <label for="results" class="me-4">Result: </label>
+            <p id="result"></p>
+           </div>
+        </div>
+      </div>
+
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
