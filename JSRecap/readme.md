@@ -73,3 +73,21 @@ alert(elem.getAttribute("myAttr"));</p>
 <h3>Array: </h3>
 
 <p>let fruits = ["Apple", "Banana", "Pear]; fruits[8] = "Orange"; in between another indexes will be undefined</p>
+
+<p>Prefix ++a Postfix a++ </p>
+
+<p>let a=1;
+alert(a++);
+
+let b=1;
+alert(++b);
+
+let c=1;
+++c;
+alert(c);</p>
+
+<h3>Vergleich</h3>
+
+<p> === wert&typ müssen gleich sein </p>
+
+
