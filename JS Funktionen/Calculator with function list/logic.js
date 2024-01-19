@@ -4,6 +4,8 @@ let functionList = [(a,b)=>a+b,(a,b)=>a-b,(a,b)=>a*b,(a,b)=>a/b]
 
 let operatorList = ["+", "-", "*", "/"];
 
+document.getElementById("calculate").addEventListener("click", find);
+
 function find(){
     let a = parseFloat(document.querySelector('#op1').value);
     let b = parseFloat(document.querySelector('#op2').value);
@@ -18,3 +20,4 @@ function find(){
         document.querySelector('#result').innerHTML = "Error"
     } 
 }
+document.getElementById("calculate").addEventListener("click", find);
