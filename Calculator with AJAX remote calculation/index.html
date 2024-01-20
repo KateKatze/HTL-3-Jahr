@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="logic.js" defer></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="card mt-5" style="width: 25rem; margin: 0 auto;">
+        <div class="card-header">
+          <h3 class="card-title text-center">Calculator</h3>
+        </div>
+          <div class="card-body">
+          <div class="mb-3 d-inline-flex">
+            <label for="op1">Operand 1: </label>
+            <input type="number" class="ms-2" id="op1" placeholder="Enter operand 1">
+          </div>
+          <div class="mb-3 d-inline-flex">
+            <label for="op2">Operand 2: </label>
+            <input type="number" class="ms-2" id="op2" placeholder="Enter operand 2">
+          </div>
+          <div class="mb-3 d-inline-flex">
+            <label for="ops">Operators: </label>
+            <select class="form-select ms-3" id="selection">
+              <option id="plus" value="+" selected>+</option>
+              <option id="minus" value="-">-</option>
+              <option id="multiply" value="*">*</option>
+              <option id="divide" value="/">/</option>
+            </select>
+            <input id="calculate" onclick="sendRequest()" class="btn btn-primary ms-2" type="button" value="Calculate"/>
+          </div>
+          <div class="card-footer">
+            <div class="mb-3 d-inline-flex">
+            <label for="results" class="me-4">Result: </label>
+            <p id="result"></p>
+           </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
