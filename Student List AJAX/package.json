@@ -1,0 +1,29 @@
+{
+  "name": "studentlist-backend",
+  "version": "1.0.0",
+  "description": "Express REST backend for JS Example StudentList",
+  "main": "StudentListServer.js",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "scripts": {
+    "start": "node StudentListServer.js",
+    "watch": "npx nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/htlpi/subjects/studentlist-backend.git"
+  },
+  "author": "Gerhard Posch, Sophie Quaritsch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/htlpi/subjects/studentlist-backend/issues"
+  },
+  "homepage": "https://gitlab.com/htlpi/subjects/studentlist-backend#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

@@ -1,0 +1,38 @@
+# 1. Install the extension 
+#    [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) 
+#    in your Visual Studio Code. 
+# 2. Above each request in this file, there is a line saying 'Send Request' – 
+#    click this line to see the output of the request. 
+# 3. Customize/add requests (separate them with ###) as you like. 
+
+GET http://localhost:5051/students HTTP/1.1
+
+###
+
+POST http://localhost:5051/students HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstname": "Alice",
+    "lastname": "Something",
+    "email": "alice@example.com"
+}
+
+### 
+DELETE http://localhost:5051/students HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": 1
+}
+
+### 
+
+PUT http://localhost:5051/students/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstname": "Alice Changed",
+    "lastname": "Something",
+    "email": "alice@example.com"
+}
